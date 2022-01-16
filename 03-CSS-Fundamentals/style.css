@@ -17,6 +17,19 @@ body {
   padding-left: 40px;
   padding-right: 40px; */
   padding: 20px 40px;
+  margin-bottom: 60px;
+}
+
+nav {
+  font-size: 18px;
+}
+
+article {
+  margin-bottom: 60px;
+}
+
+.post-header {
+  margin-bottom: 40px;
 }
 
 aside {
@@ -52,10 +65,13 @@ h1 {
 
 h2 {
   font-size: 40px;
+  margin-bottom: 30px;
 }
 
 h3 {
   font-size: 30px;
+  margin-bottom: 20px;
+  margin-top: 40px;
 }
 
 h4 {
@@ -67,6 +83,13 @@ h4 {
 p {
   font-size: 22px;
   line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+ul,
+ol {
+  margin-left: 50px;
+  margin-bottom: 20px;
 }
 
 li {
@@ -178,7 +201,3 @@ footer p {
 nav p {
   font-size: 18px;
 } */
-
-nav {
-  font-size: 18px;
-}
