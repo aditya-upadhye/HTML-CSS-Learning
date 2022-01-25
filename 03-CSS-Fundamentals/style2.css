@@ -72,15 +72,15 @@ h1::before {
 }
 
 .color-red {
-  background-color: red;
+  background-color: #ec2f2f;
 }
 
 .color-yellow {
-  background-color: yellow;
+  background-color: #f0bf1e;
 }
 
 .color-green {
-  background-color: yellowgreen;
+  background-color: #90cc20;
 }
 
 .color-brown {
