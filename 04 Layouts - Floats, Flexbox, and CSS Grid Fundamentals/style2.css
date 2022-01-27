@@ -2,6 +2,7 @@
   font-family: sans-serif;
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 body {
   border: 4px solid black;
@@ -32,15 +33,40 @@ h1::before {
   letter-spacing: 2px;
 }
 
+.product-wo-btn {
+  margin-bottom: 0;
+}
+
+.img {
+  float: left;
+  margin-right: 40px;
+}
+
+.pricing-n-colors {
+  position: absolute;
+  left: 43rem;
+  width: 240px;
+}
+
+.product-details {
+  float: right;
+  width: 240px;
+}
+
 .price {
   font-size: 24px;
+  margin-bottom: 15px;
 }
 
 .shipping {
   text-transform: uppercase;
   font-size: 12px;
+  font-weight: bold;
   color: gray;
   margin-bottom: 20px;
+  float: right;
+  position: relative;
+  top: -2.5rem;
 }
 
 .more-info:link,
@@ -101,7 +127,7 @@ h1::before {
   margin-bottom: 5px;
 }
 
-button {
+.btn {
   text-decoration: none;
   color: white;
   background-color: black;
@@ -114,7 +140,7 @@ button {
   border-top: 4px solid black;
 }
 
-button:hover {
+.btn:hover {
   color: black;
   background-color: white;
 }
