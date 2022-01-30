@@ -9,6 +9,7 @@ body {
   line-height: 1.4;
   width: 825px;
   margin: 50px auto;
+  position: relative;
 }
 
 h1 {
@@ -34,28 +35,39 @@ h1::before {
 }
 
 .product-wo-btn {
-  margin-bottom: 0;
+  display: flex;
+  gap: 40px;
 }
 
-.img {
-  float: left;
-  margin-right: 40px;
-}
+/* .product-img {
+} */
 
 .pricing-n-colors {
-  position: absolute;
-  left: 43rem;
-  width: 240px;
+  /* width: 243px; */
+  margin-top: 20px;
+  flex: 1;
+}
+
+.product-description {
+  margin-bottom: 10px;
 }
 
 .product-details {
-  float: right;
-  width: 240px;
+  /* width: 240px; */
+  margin-top: 20px;
+  flex: 1;
+}
+
+.product-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
 }
 
 .price {
   font-size: 24px;
-  margin-bottom: 15px;
+  /* margin-bottom: 15px; */
 }
 
 .shipping {
@@ -63,10 +75,9 @@ h1::before {
   font-size: 12px;
   font-weight: bold;
   color: gray;
-  margin-bottom: 20px;
-  float: right;
   position: relative;
-  top: -2.5rem;
+  /* top: 0.5rem; */
+  /* right: -3rem; */
 }
 
 .more-info:link,
@@ -81,10 +92,13 @@ h1::before {
   margin-bottom: 10px;
 }
 
-.colors {
-  display: inline-block;
+.product-colors {
+  display: flex;
+  gap: 10px;
+}
+
+.color {
   margin: 15px auto;
-  margin-right: 10px;
   height: 22px;
   width: 22px;
 }
