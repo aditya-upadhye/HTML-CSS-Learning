@@ -210,7 +210,8 @@ nav a:link {
   display: inline-block;
 }
 
-nav a:link:last-child {
+nav a:link,
+a:last-child {
   margin-right: 0;
 }
 
